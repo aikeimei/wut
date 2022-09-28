@@ -11,6 +11,9 @@ img{
     display: flex;
     align-items: center;
 }
+nav ul{
+    width: 50%;
+}
 nav{
     display: flex;
     /* list-style: none; */
@@ -18,4 +21,8 @@ nav{
     background-color: black;
     height: 80px;
     color: white;
+}
+.search{
+    text-align: right;
+    width: 50%;
 }
