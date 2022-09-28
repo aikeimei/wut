@@ -6,20 +6,35 @@ li{
     list-style: none;
 }
 img{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     display: flex;
     align-items: center;
+    /* border: black solid; */
+    border-radius: 35px;
+    
 }
 nav ul{
     width: 50%;
+    display: flex;
+    /* justify-content: center; */
+    
+   
+}
+nav ul li{
+    padding: 20px 30px 20px 30px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
 }
 nav{
     display: flex;
     /* list-style: none; */
     align-items: center;
     background-color: black;
-    height: 80px;
+    height: 90px;
     color: white;
 }
 .search{
