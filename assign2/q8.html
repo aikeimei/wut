@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+    input[type=text],
+    select {
+        width: 80%;
+        padding: 10px 16px;
+        margin: 6px 0;
+        display: inline-block;
+        border: 3px solid black;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: orange;
+        color: brown;
+        padding: 12px 16px;
+        margin: 6px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: green;
+    }
+
+    div {
+        border-radius: 3px;
+        background-color: yellow;
+        padding: 15px;
+        align-items: center;
+    }
+    /* label{
+        float: right;
+    }
+
+    .col {
+        float: left;
+    } */
+</style>
+
+<body>
+    
+    <div>
+        <form action="/action_page.php">
+            <div class="col"><label for="emp">Employee Name</label></div>
+            <input type="text" id="emp" name="employee name" placeholder="Your name..">
+            <div class="col"><label for="dept">Department</label></div>
+            <input type="text" id="dept" name="department" placeholder="Your department..">
+            <div class="col"><label for="city">City</label></div>
+            <select id="city" name="city">
+                <option value="Houston">Houston</option>
+                <option value="Tampa">Tampa</option>
+                <option value="San Francisco">San Francisco</option>
+            </select><input type="submit" value="Conﬁrm">
+        </form>
+    </div>
+</body>
+
+</html>
