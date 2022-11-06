@@ -1,18 +1,83 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <div>
-            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cowboy-bebop-1635950345.jpg" alt="">
-        </div>
-        <div>
-            <ul>
-                <div><li></li></div>
+<head>
+    <style>
+        * {
+            margin: 0;
+            background-color: grey;
+        }
 
-            </ul>
+        .head {
+            background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cowboy-bebop-1635950345.jpg');
+            width: 100%;
+            height: 300px;
+            background-size: contain;
+            overflow: hidden;
             
+        }
+        .content{
+            text-align: center;
+            padding: 10px;
+            border: 2px solid white;
+        }
+        .content:hover{
+            background-color: azure;
+            color: black;
+            cursor: pointer;
+        }
+
+        .bottom div {
+
+            background-color: black;
+            color: white;
+            height: 37px;
+            width: 300px;
+            
+        }
+        .bottom{
+            display: flex;
+            
+        }
+       
+        
+    </style>
+
+
+</head>
+
+<body>
+    
+    <div class="head"> </div>
+    <nav class="bottom">
+
+        <div class="content">
+            Home
         </div>
-    </body>
+        <div class="content">
+            Series
+        </div>
+        <div class="content">
+            Gallery
+        </div>
+        <div class="content">
+            About us
+        </div>
+    </nav>
+
+    <br>
+    <div class="main">
+        <h1><b>Blog</b></h1>
+        <br>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et ullam 
+            voluptate impedit? Libero, impedit incidunt saepe odio assumenda quos 
+            deserunt error earum vel unde placeat qui debitis perspiciatis cum tempora 
+            ex eius. Ea nostrum at voluptate, nisi optio iure vero temporibus qui dignissimos 
+            quis eaque fugiat reiciendis deserunt cupiditate est.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum asperiores explicabo consectetur placeat dolorum repudiandae doloremque deleniti quia vitae ipsum obcaecati esse consequatur illum, laboriosam quam laudantium reprehenderit iusto unde sit totam. Adipisci, quisquam. Animi vero minima culpa blanditiis rerum quas, saepe obcaecati corrupti quisquam voluptate! Quisquam rerum porro sunt.
+       </p>
+    </div>
+
+</body>
+
 </html>
